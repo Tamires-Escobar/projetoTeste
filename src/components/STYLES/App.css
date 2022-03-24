@@ -1,0 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  grid-template-areas: "homerSimpson";
+  background-color: rgba(231, 235, 42, 0.925);
+}

@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 35px;
+
+}
+
+.img{
+    margin-top: 50px;
+    opacity: 98%;
+    border-radius: 50%;
+    border: 5px solid rgb(61, 61, 63);
+    box-shadow: 1px 0px 20px 9px rgbs(63, 66, 66, 0.753);
+}
+
+.img:hover{
+    transform: scale(1.2);
+    transition: 3s;
+}
+.textoFrase{
+    margin-top: 50px;
+    opacity: 92%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    padding: 10px;
+    width: 35%;
+    color: rgba(0, 0, 0, 0.849);
+}
+.btn{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgb(253, 255, 253);
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 10px;
+}
